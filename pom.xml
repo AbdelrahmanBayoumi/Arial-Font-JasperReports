@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codeclinic</groupId>
+    <groupId>com.bayoumi</groupId>
     <artifactId>Arial-Font-JasperReports</artifactId>
     <version>1.0.0</version>
     <name>Arial-Font-JasperReports</name>
-
+    <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
     <distributionManagement>
-        <!-- ... Some other Distribution repository definitions -->
-
         <repository>
-            <id>repsy</id>
-            <name>codeclinic</name>
-            <url>https://repo.repsy.io/mvn/bayoumi/codeclinic</url>
+            <id>github</id>
+            <name>GitHub AbdelrahmanBayoumi Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/AbdelrahmanBayoumi/Arial-Font-JasperReports</url>
         </repository>
-
-        <!-- ... Some other Distribution repository definitions -->
     </distributionManagement>
+
+    <developers>
+        <developer>
+            <name>Abdelrahman Bayoumi</name>
+            <email>abdelrahmanbayoumi1@gmail.com</email>
+            <organization>com.github.AbdelrahmanBayoumi</organization>
+            <organizationUrl>https://github.com/AbdelrahmanBayoumi/Arial-Font-JasperReports</organizationUrl>
+        </developer>
+    </developers>
 </project>
